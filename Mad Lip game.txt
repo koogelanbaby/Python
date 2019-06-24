@@ -1,0 +1,23 @@
+print("Hello Player !! Welcome to MAD LIP GAMES")
+
+print("--------------WELCOME TO PIZZA REA-----------")
+
+adjective = input("Please key in adjective: ")
+nationality = input("Please key in nationality: ")
+person = input("Please key in a person name: ")
+noun = input("Please key in a noun: ")
+plural_noun = input("Please key in a plural noun : ")
+shapes = input("Please key in a person shapes: ")
+food_name = input("Please key in a food name: ")
+number = input("Please key in a number: ")
+
+print("Pizza was invented by a "+adjective + nationality)
+print("chef named " + person + ".To make pizza you need to take a lump of "+ noun)
+print("and make a thin round " + adjective + noun + "Then you convert it with " + adjective + "sauce," + adjective)
+print("cheese and fresh chopped " + plural_noun + ".")
+print("Nest you need to bake it in a very hot" + noun+".")
+print("When it is done, cut it into " + number + shapes)
+print(".Some kids like " + food_name + "pizza the best,but my favorite is the " + food_name)
+print("pizza.If i could, I would eat pizza " + number + "times a day")
+
+print ("The end of the game thank you for participating in the game!!!!")

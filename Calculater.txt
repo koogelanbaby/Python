@@ -1,0 +1,35 @@
+print("Welcome user!!")
+num1 = float(input("Please key in your 1st number: "))
+operator = input("Please state a operator: ")
+num2 = float(input("Please key in your seconf number: "))
+
+if operator == "+":
+    print(num1+num2)
+elif operator == "-":
+    print(num1-num2)
+elif operator == "/":
+    print(num1/num2)
+elif operator == "*":
+    print(num1*num2)
+else:
+    print("Invalid input")
+Loop = input("Do you wish to continue, Please press y or n: ")
+if Loop == "y":
+    num1 = float(input("Please key in your 1st number: "))
+    operator = input("Please state a operator: ")
+    num2 = float(input("Please key in your seconf number: "))
+    if operator == "+":
+        print(num1 + num2)
+    elif operator == "-":
+        print(num1 - num2)
+    elif operator == "/":
+        print(num1 / num2)
+    elif operator == "*":
+        print(num1 * num2)
+    else:
+        print("Invalid input")
+else:
+    Loop == "n"
+    print("OK!!")
+
+print("thank you for using the calculator")

@@ -1,0 +1,22 @@
+print("Welcome Player!! Lets begin the quiz")
+print("Which animel does bark?")
+answer_for_quiz = "dog"
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guess = False
+
+
+while guess != answer_for_quiz and not (out_of_guess):
+    if guess_count < guess_limit :
+        guess = input("Give your answer: ")
+        guess_count += 1
+    else:
+        out_of_guess = False
+
+
+if out_of_guess :
+    print("you have used all your guesses!!")
+
+else:
+    print("you have win the game!!")
